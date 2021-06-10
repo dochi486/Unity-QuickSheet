@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4274119dacc11694283eae7245e2dc30, type: 3}
+  m_Name: "\uC2DC\uD2B81"
+  m_EditorClassIdentifier: 
+  SheetName: Assets/ItemSample.xls
+  WorksheetName: "\uC2DC\uD2B81"
+  dataArray:
+  - id: 1
+    name: "\uC9C0\uD321\uC774"
+    icon: Item1
+    prefab: 
+    description:
+    - "\uB098\uB294\uC9C0\uD321\uC774\uC5D0\uC694"
+  - id: 2
+    name: "\uC0AC\uB2E4\uB9AC"
+    icon: Item2
+    prefab: 
+    description:
+    - "\uB2E4\uB9AC\uAC004\uAC1C\uB77C\uC11C\uC0AC\uB2E4\uB9AC\uC5D0\uC694"
+  - id: 3
+    name: "\uC0BD"
+    icon: Item3
+    prefab: 
+    description:
+    - "\uCF54\uB529\uD560\uB54C\uB294\uC0AC\uC6A9\uD558\uC9C0\uB9C8\uC138\uC694"
+  - id: 4
+    name: "\uB09A\uC2DC\uB300"
+    icon: Item4
+    prefab: FishingRod
+    description:
+    - "\uB09A\uC2DC\uD558\uB7EC\uAC00\uC694~"

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbcda13c00cae4f4087d84a149a1c70b, type: 3}
-  m_Name: Google Data Settings
+  m_Name: New Google Data Settings
   m_EditorClassIdentifier: 
   TemplatePath: QuickSheet/GDataPlugin/Templates
-  RuntimePath: 
-  EditorPath: 
+  RuntimePath: Scripts/Runtime
+  EditorPath: Scripts/Editor
   OAuth2Data:
     client_id: 1045527371543-o2imqdkae7od42pbcirifm83os5g1p5l.apps.googleusercontent.com
     auth_uri: https://accounts.google.com/o/oauth2/auth
@@ -24,6 +24,6 @@ MonoBehaviour:
     redirect_uris:
     - urn:ietf:wg:oauth:2.0:oob
     - http://localhost
-  _AccessCode: 4/1AY0e-g7t4Jiit-iCapS6XFkQz8xzniEBPDRdOKu8n1nuVd_L6428TrQI3eE
-  _RefreshToken: 1//0efKRmnZ3tRHWCgYIARAAGA4SNwF-L9IrLPb21uloZd2VjsfIexsdQCxI4ykoHQjr7xjOJEjeNN-NoIAEgFUIXVmo0Spfs20eFHU
-  _AccessToken: ya29.a0AfH6SMAnJ9kR2esoukMDgwKF-LavwOP6UehQ2PJBqGacD1wNG-1qP0nKwcLi6nbL_xaAKYjvvOSkxrWGw25A-YcYSkHs64DRwQDx-VlPG9kZdMCUvhsP22B4uDJFTvwc91MmZ_J7TCbGCdVyevJtSRykDqtP
+  _AccessCode: 4/1AY0e-g4GUpnsv22oiyeEfyYswBcj90go9AgOMDgXB-36QITxdZF0b54uw2M
+  _RefreshToken: 1//0ePce43s-eHrKCgYIARAAGA4SNwF-L9Irp5raHwTf_t1TbQiTfAyc2PUBpDbaLRZIzIaRq22xMFMV0HNNOz7WSn3vp5Q-JCpXMMY
+  _AccessToken: ya29.a0AfH6SMDDusEJ2khJZkLV3wfCFSpBAqeFgWcglctwJRrb-e9vTFXk8e7dwMTwRNFPzr32UqAx5u5A4jfNWkYPjvAc1ITA5PFz0NzYVB1VuwU9XFfnQ0BVtOa6yov-MwTtNJ3pUyTUCRLiC-HdGIxD15L0Mo6A

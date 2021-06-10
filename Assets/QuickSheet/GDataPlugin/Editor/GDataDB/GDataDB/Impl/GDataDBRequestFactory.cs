@@ -72,9 +72,9 @@ namespace GDataDB.Impl
 
             string authorizationUrl = OAuthUtil.CreateOAuth2AuthorizationUrl(parameters);
             Debug.Log(authorizationUrl);
-            //Debug.Log("Please visit the URL above to authorize your OAuth "
-            //      + "request token.  Once that is complete, type in your access code to "
-            //      + "continue...");
+            Debug.Log("Please visit the URL above to authorize your OAuth "
+                  + "request token.  Once that is complete, type in your access code to "
+                  + "continue...");
 
             parameters.AccessCode = accessCode;
 
