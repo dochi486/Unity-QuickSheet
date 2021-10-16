@@ -1,465 +1,131 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 7  (6.1.0) 64bit' Language: 'ko' Physical Memory: 8112 MB
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1266; Version 2009; 64bit' Language: 'ko' Physical Memory: 32670 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-F:\Unity\2020.3.8f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-F:/GitHub/Unity-QuickSheet
+D:/GitHub/Unity-QuickSheet
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9988
-Successfully changed project path to: F:/GitHub/Unity-QuickSheet
-F:/GitHub/Unity-QuickSheet
+10712
+Successfully changed project path to: D:/GitHub/Unity-QuickSheet
+D:/GitHub/Unity-QuickSheet
 Using Asset Import Pipeline V2.
 Platform WindowsStandaloneSupport does not support graphics device type 
 
-Refreshing native plugins compatible for Editor in 26.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.8f1 (507919d4fff5)
-[Subsystems] Discovering subsystems at path F:/Unity/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/GitHub/Unity-QuickSheet/Assets
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Unity-QuickSheet/Assets
 GfxDevice: creating device client; threaded=0
-d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
-d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
     Vendor:   
-    VRAM:     1632 MB
-    Driver:   10.18.14.5180
+    VRAM:     12143 MB
+    Driver:   30.0.14.7212
 Initialize mono
-Mono path[0] = 'F:/Unity/2020.3.8f1/Editor/Data/Managed'
-Mono path[1] = 'F:/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'F:/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: F:/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: F:/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001400 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002664 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.11 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.552 seconds
+- Completed reload, in  2.283 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004395 seconds.
+Registered in 0.003544 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
+- Completed reload, in  0.728 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Platform WindowsStandaloneSupport does not support graphics device type 
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1183 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.6 MB.
-System memory in use after: 61.7 MB.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.5 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.700937 ms (FindLiveObjects: 0.143078 ms CreateObjectMapping: 0.043467 ms MarkObjects: 1.458248 ms  DeleteObjects: 0.054635 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1858.
+Total: 1.594700 ms (FindLiveObjects: 0.149800 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.355600 ms  DeleteObjects: 0.048900 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset
-  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750cdb2f02b63815bdc2914343f2cd6f') in 0.123259 seconds
-  Import took 0.126277 seconds .
+  path: Assets/ExcelLoaderSample.unity
+  artifactKey: Guid(bf6d21df8790a3a43ba5c48610eb67e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExcelLoaderSample.unity using Guid(bf6d21df8790a3a43ba5c48610eb67e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9094398792cfc515a1407f1c752f9815') in 0.013792 seconds 
+  Import took 0.015547 seconds .
 
 ========================================================================
 Received Prepare
 Platform WindowsStandaloneSupport does not support graphics device type 
 
 Registering precompiled user dll's ...
-Registered in 0.005025 seconds.
+Registered in 0.003350 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
+- Completed reload, in  0.686 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1177 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.5 MB.
-System memory in use after: 61.6 MB.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.2 MB.
+System memory in use after: 68.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.900461 ms (FindLiveObjects: 0.143078 ms CreateObjectMapping: 0.069728 ms MarkObjects: 1.644491 ms  DeleteObjects: 0.041656 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 1.404700 ms (FindLiveObjects: 0.097800 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.264400 ms  DeleteObjects: 0.011400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 507.235780 seconds.
-  path: Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset
-  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e612ff6fce177907978607701fcb70ab') in 0.020880 seconds
-  Import took 0.024470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001390 seconds.
-  path: Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset
-  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e612ff6fce177907978607701fcb70ab') in 0.004600 seconds
-  Import took 0.007759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.720118 seconds.
-  path: Assets/QuickSheet/GDataPlugin/Editor/New Import Setting.asset
-  artifactKey: Guid(e23e652666ce2884ca922a96e20daa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/GDataPlugin/Editor/New Import Setting.asset using Guid(e23e652666ce2884ca922a96e20daa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Multiple UnityQuickSheet.GoogleDataSettings assets are found.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogWarningFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:35)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 35)
-
-Using Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:38)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 38)
-
- -> (artifact id: '7b22933db75d5efbf2b95e46a09c1b12') in 0.025210 seconds
-  Import took 0.027894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset
-  artifactKey: Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset using Guid(de069546a9e7f3340afcaabb8a149e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4279a102dde53c42c86be421674a81e3') in 0.004179 seconds
-  Import took 0.007527 seconds .
-
-========================================================================
-Received Prepare
-Platform WindowsStandaloneSupport does not support graphics device type 
-
-Registering precompiled user dll's ...
-Registered in 0.004572 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.6 MB.
-System memory in use after: 61.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1622.
-Total: 1.655659 ms (FindLiveObjects: 0.114704 ms CreateObjectMapping: 0.037128 ms MarkObjects: 1.487527 ms  DeleteObjects: 0.015394 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.567722 seconds.
-  path: Assets/QuickSheet/Runtime
-  artifactKey: Guid(f90a9d68d0a5bde43b81350c3580939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/Runtime using Guid(f90a9d68d0a5bde43b81350c3580939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8640b04035c026059022b30b036de5') in 0.012478 seconds
-  Import took 0.015442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/QuickSheet/Runtime
-  artifactKey: Guid(f90a9d68d0a5bde43b81350c3580939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/Runtime using Guid(f90a9d68d0a5bde43b81350c3580939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8640b04035c026059022b30b036de5') in 0.003618 seconds
-  Import took 0.006551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.124228 seconds.
-  path: Assets/QuickSheet/Runtime/ExposePropertyAttribute.cs
-  artifactKey: Guid(97ffbbf694304df4187920e468596214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/Runtime/ExposePropertyAttribute.cs using Guid(97ffbbf694304df4187920e468596214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c52b391f0b4ebfe057c4065eb878da5') in 0.014599 seconds
-  Import took 0.020685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003039 seconds.
-  path: Assets/QuickSheet/Runtime/ExposePropertyAttribute.cs
-  artifactKey: Guid(97ffbbf694304df4187920e468596214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/Runtime/ExposePropertyAttribute.cs using Guid(97ffbbf694304df4187920e468596214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c52b391f0b4ebfe057c4065eb878da5') in 0.002660 seconds
-  Import took 0.005320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.197646 seconds.
-  path: Assets/QuickSheet/Runtime/ItemData.cs
-  artifactKey: Guid(9df35ee3b4948ad40921d329ef90dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/Runtime/ItemData.cs using Guid(9df35ee3b4948ad40921d329ef90dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07d6d322891879b96a9d4facba408af') in 0.012347 seconds
-  Import took 0.015829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005761 seconds.
-  path: Assets/QuickSheet/Runtime/ItemData.cs
-  artifactKey: Guid(9df35ee3b4948ad40921d329ef90dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/Runtime/ItemData.cs using Guid(9df35ee3b4948ad40921d329ef90dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07d6d322891879b96a9d4facba408af') in 0.003375 seconds
-  Import took 0.005832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.091322 seconds.
-  path: Assets/QuickSheet/New Google Data Settings.asset
-  artifactKey: Guid(5f5b4108ec7560c4abb8647975e63e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Google Data Settings.asset using Guid(5f5b4108ec7560c4abb8647975e63e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91613eb77ba14a3204d856167f3b1ae') in 0.039335 seconds
-  Import took 0.045907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.794204 seconds.
-  path: Assets/QuickSheet/New Import Setting 1.asset
-  artifactKey: Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Import Setting 1.asset using Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Multiple UnityQuickSheet.GoogleDataSettings assets are found.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogWarningFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:35)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 35)
-
-Using Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:38)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 38)
-
- -> (artifact id: 'd25faf70fc881da25bc1bde6021bc146') in 0.019671 seconds
-  Import took 0.022773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.399884 seconds.
-  path: Assets/QuickSheet/GDataPlugin
-  artifactKey: Guid(fb1ad8bb60899ff4291e33ba664f772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/GDataPlugin using Guid(fb1ad8bb60899ff4291e33ba664f772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf2f1b65b5c2e1f4df446db18f36143') in 0.017248 seconds
-  Import took 0.021569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004884 seconds.
-  path: Assets/QuickSheet/GDataPlugin
-  artifactKey: Guid(fb1ad8bb60899ff4291e33ba664f772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/GDataPlugin using Guid(fb1ad8bb60899ff4291e33ba664f772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf2f1b65b5c2e1f4df446db18f36143') in 0.007596 seconds
-  Import took 0.013160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.382397 seconds.
-  path: Assets/QuickSheet/New Import Setting 1.asset
-  artifactKey: Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Import Setting 1.asset using Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Multiple UnityQuickSheet.GoogleDataSettings assets are found.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogWarningFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:35)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 35)
-
-Using Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:38)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 38)
-
- -> (artifact id: 'c246555b0e79d20d976a91277343af24') in 0.010085 seconds
-  Import took 0.012509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007555 seconds.
-  path: Assets/QuickSheet/New Import Setting 1.asset
-  artifactKey: Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Import Setting 1.asset using Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Multiple UnityQuickSheet.GoogleDataSettings assets are found.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogWarningFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:35)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 35)
-
-Using Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:38)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 38)
-
- -> (artifact id: 'c246555b0e79d20d976a91277343af24') in 0.008711 seconds
-  Import took 0.011265 seconds .
-
-========================================================================
-Received Prepare
-Platform WindowsStandaloneSupport does not support graphics device type 
-
-Registering precompiled user dll's ...
-Registered in 0.004555 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.924 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.7 MB.
-System memory in use after: 61.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1628.
-Total: 1.677392 ms (FindLiveObjects: 0.155152 ms CreateObjectMapping: 0.068219 ms MarkObjects: 1.433798 ms  DeleteObjects: 0.019319 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.851967 seconds.
-  path: Assets/New Import Setting.asset
-  artifactKey: Guid(6af61d6ac878778449b93a3ac30d9026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Import Setting.asset using Guid(6af61d6ac878778449b93a3ac30d9026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Multiple UnityQuickSheet.ExcelSettings assets are found.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogWarningFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.ExcelSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:35)
-UnityQuickSheet.ExcelMachine:Awake () (at Assets/QuickSheet/ExcelPlugin/Editor/ExcelMachine.cs:41)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 35)
-
-Using Assets/New Excel Settings.asset.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.ExcelSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:38)
-UnityQuickSheet.ExcelMachine:Awake () (at Assets/QuickSheet/ExcelPlugin/Editor/ExcelMachine.cs:41)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 38)
-
- -> (artifact id: '1abade84dc9a1e56f371a409580b89e5') in 0.037692 seconds
-  Import took 0.040712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/QuickSheet/New Item.asset
-  artifactKey: Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Item.asset using Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b18a3e3064fbd0b306e7697ffa1b0a5') in 0.018609 seconds
-  Import took 0.021544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/시트1.asset
-  artifactKey: Guid(1de904a5c5d58804ebdbf6c851ee24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/시트1.asset using Guid(1de904a5c5d58804ebdbf6c851ee24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b186fd8db67cb6a6813b13663bbe48c2') in 0.009293 seconds
-  Import took 0.011772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024161 seconds.
-  path: Assets/QuickSheet/New Item.asset
-  artifactKey: Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Item.asset using Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b18a3e3064fbd0b306e7697ffa1b0a5') in 0.006473 seconds
-  Import took 0.011633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002572 seconds.
-  path: Assets/QuickSheet/New Import Setting 1.asset
-  artifactKey: Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Import Setting 1.asset using Guid(6fe7ae7308b4b464bb9c56d55a87bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Multiple UnityQuickSheet.GoogleDataSettings assets are found.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogWarningFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:35)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 35)
-
-Using Assets/QuickSheet/GDataPlugin/Editor/Google Data Settings.asset.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityQuickSheet.SingletonScriptableObject`1<UnityQuickSheet.GoogleDataSettings>:get_Instance () (at Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs:38)
-UnityQuickSheet.GoogleMachine:Awake () (at Assets/QuickSheet/GDataPlugin/Editor/GoogleMachine.cs:36)
-
-(Filename: Assets/QuickSheet/Editor/Util/SingletonScriptableObject.cs Line: 38)
-
- -> (artifact id: '9262d5ec0fd265a0d944e448ee8792c1') in 0.012011 seconds
-  Import took 0.015940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.667187 seconds.
-  path: Assets/QuickSheet/New Item.asset
-  artifactKey: Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Item.asset using Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291b9fea898dca5a3f841a23ab6434bb') in 0.013626 seconds
-  Import took 0.016148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013962 seconds.
-  path: Assets/QuickSheet/New Item.asset
-  artifactKey: Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSheet/New Item.asset using Guid(b83f46ee6382a114eb747d133d521a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291b9fea898dca5a3f841a23ab6434bb') in 0.003303 seconds
-  Import took 0.006048 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
